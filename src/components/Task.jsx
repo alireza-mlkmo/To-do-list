@@ -1,6 +1,6 @@
 import { useState } from "react";
-import Alert from "./alert";
-import Edit from "./edit";
+import Alert from "./Alert";
+import Edit from "./Edit";
 import TaskBox from "./TaskBox";
 
 
