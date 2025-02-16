@@ -1,7 +1,7 @@
 import "./App.css";
 
 import AddTask from "./components/AddTask";
-import Grouping from "./components/grouping";
+import Grouping from "./components/Grouping";
 import AllTasks from "./components/AllTasks";
 import Divider from "./components/Divider";
 import Title from "./components/Title";
