@@ -20,7 +20,7 @@ export default function AddTask() {
 
   return (
     <form
-      className="flex justify-between items-center bg-white rounded-md p-2 w-full"
+      className="flex justify-between items-center bg-white rounded-md  p-2 "
       onSubmit={(e) => handleSubmit(e)}
     >
       <input

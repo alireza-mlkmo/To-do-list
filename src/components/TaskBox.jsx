@@ -16,7 +16,7 @@ export default function TaskBox({ task, setEdit , setAlert}) {
   });
   
   return (
-    <div className="flex justify-between items-center w-full bg-blue-200 text-blue-600 p-2 rounded-md">
+    <div className="flex justify-between items-center  bg-blue-200 text-blue-600 p-2 rounded-md">
       <div className="flex items-center gap-x-1">
         <input
           checked={finished}

@@ -19,10 +19,10 @@
 
 @layer components{
   body{
-    @apply font-Sahel bg-slate-200 flex  justify-center items-center mt-20  text-blue-600
+    @apply font-Sahel bg-slate-200 md:flex  justify-center items-center mt-20  text-blue-600
   }
   .app{
-    @apply flex flex-col text-center gap-y-7
+    @apply flex flex-col text-center px-4 md:px-0 gap-y-7
   }
   .app{
     direction: rtl;
