@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Sahel";
+  src: local("Sahel") , url("../public/fonts/Sahel.woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: "SahelBold";
+  src: local("SahelBold") , url("../public/fonts/Sahel-Bold.woff");
+  font-display: swap;
+}
+
+@theme{
+  --font-Sahel: Sahel ;
+  --font-SahelBold: SahelBold;
+}
+
+
+@layer components{
+  body{
+    @apply font-Sahel bg-slate-200 flex  justify-center items-center mt-20  text-blue-600
+  }
+  .app{
+    @apply flex flex-col text-center gap-y-7
+  }
+  .app{
+    direction: rtl;
+  }
+}
