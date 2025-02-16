@@ -1,11 +1,5 @@
-import { useState } from "react";
-import Edit from "./edit";
 
 export default function EditIcon({ setEdit }) {
-
-  
-  
-
   return (
     <div
       className="cursor-pointer text-orange-600 size-4"
